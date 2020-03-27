@@ -1,0 +1,24 @@
+body {
+  font-family: "Roboto Mono", serif;
+}
+
+.header {
+  border-bottom: 1px solid;
+}
+
+.main-con {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-con {
+  border-right: 1px solid;
+}
+
+.projects-con {
+  flex-grow: 1.5;
+}
+
+.js-dev {
+  font-family: "Alegreya", serif;
+}
