@@ -22,3 +22,13 @@ body {
 .js-dev {
   font-family: "Alegreya", serif;
 }
+
+.lab {
+  color: #636669;
+  text-decoration: none;
+}
+
+.lab:hover {
+  color: #212529;
+  text-decoration: none;
+}
