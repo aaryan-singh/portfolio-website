@@ -1,6 +1,7 @@
 body {
   font-family: "Roboto Mono", serif;
-  background-color: #fafafa;
+  /* background-color: #fafafa; */
+  background-color: #fbeec1;
 }
 
 p {
@@ -30,6 +31,7 @@ p {
 .about-con {
   border-right: 1px solid;
   padding-right: 1rem;
+  padding-bottom: 14rem;
 }
 
 .about-main {
@@ -52,12 +54,15 @@ p {
 }
 
 .project-box {
-  background-color: #fafafa;
+  /* background-color: #fafafa;
+   */
+   background-color: #fbeec1;
   /* border: 1px solid; */
   /* text-align: center; */
-  height: 15em;
+  height: 16em;
   width: 15em;
   margin: 1rem;
+  margin-left: 2rem;
 }
 
 .stack {
@@ -98,9 +103,9 @@ p {
   .projects-heading {
     margin-left: 0;
   }
-  .project-box {
+  /* .project-box {
     margin-left: 0;
-  }
+  } */
   .header {
     margin-top: 0rem;
   }
@@ -114,4 +119,9 @@ p {
   .main-stack {
     margin-top: 1rem;
   }
+}
+
+li {
+  padding: 0,
+  margin: 0
 }
