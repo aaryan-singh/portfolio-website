@@ -3,6 +3,17 @@ body {
   background-color: #fafafa;
 }
 
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.ext-link {
+  display: inline-block;
+}
+
 .header {
   border-bottom: 1px solid;
   margin-top: 2rem;
@@ -38,17 +49,31 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr); */
 }
 
 .project-box {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid;
-  text-align: center;
+  background-color: #fafafa;
+  /* border: 1px solid; */
+  /* text-align: center; */
   height: 15em;
   width: 15em;
   margin: 1rem;
+}
+
+.stack {
+  background-color: #636669;
+  color: #fafafa;
+  border-radius: 1.75px;
+  padding: 1px;
+}
+
+.project-img {
+  display: block;
+  max-width: 240px;
+  max-height: 220px;
+  width: auto;
+  height: auto;
+  border: 1px solid;
 }
 
 .js-dev {
@@ -63,6 +88,10 @@ body {
 .lab:hover {
   color: #212529;
   text-decoration: none;
+}
+
+.main-stack {
+  margin-top: 2rem;
 }
 
 @media only screen and (max-width: 1503px) {
@@ -81,5 +110,8 @@ body {
     width: 100%;
     margin-right: 2rem;
     padding-bottom: 1rem;
+  }
+  .main-stack {
+    margin-top: 1rem;
   }
 }
